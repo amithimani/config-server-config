@@ -1,14 +1,15 @@
-db:
-  name: oracle
 spring:
   application:
     name: TestApplication
 
 server:
-  port: 8085
+  port: 8086
 
 management:
   endpoints:
     web:
       exposure:
         include: '*'
+
+hello:
+  rel: dj
