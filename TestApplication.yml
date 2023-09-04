@@ -1,2 +1,14 @@
 db:
   name: oracle
+spring:
+  application:
+    name: TestApplication
+
+server:
+  port: 8085
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
